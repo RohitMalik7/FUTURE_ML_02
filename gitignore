@@ -1,0 +1,33 @@
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# ----- Virtual environments -----
+env/
+venv/
+.venv/
+.env
+
+# ----- Jupyter Notebook -----
+.ipynb_checkpoints/
+
+# ----- NLTK downloads (auto-fetched by the notebook) -----
+nltk_data/
+
+# ----- Operating system -----
+.DS_Store
+Thumbs.db
+
+# ----- IDEs / editors -----
+.vscode/
+.idea/
+
+# ----- Logs -----
+*.log
+
+# Note: data/, models/, and reports/ are intentionally tracked,
+# as they are part of the project deliverable.
